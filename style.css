@@ -1,0 +1,26 @@
+
+li{
+    font-size: 20px;
+margin-left: 20px;
+}
+#img{
+    height: 80%;
+    width: 60%;
+    margin-top: -50px;
+}
+#greet{
+    color: aliceblue;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+#cont{
+height: 650px;
+}
+#top{
+margin-top: 70px;
+}
+#react{
+    height: 250px;
+    width: 250px;
+}
