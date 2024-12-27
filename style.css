@@ -4,11 +4,11 @@ li{
 margin-left: 20px;
 }
 #img{
-    height:330px;
-    width: 55%;
+    height:75%;
+    width: 75%;
     margin-top: 10px;
     border-radius: 50%;
-    box-shadow: 0 0 25px 0px #0d6efd;
+    box-shadow: 0 0 20px 5px #0d6efd;
 }
 #greet{
     color: aliceblue;
@@ -19,6 +19,16 @@ margin-left: 20px;
   font-style: normal;
 
 
+}
+nav{
+}
+#nav{
+    font-size: 26px;
+    color: white;
+
+}
+#btnn{
+    background-color: #0d6efd;
 }
 #cont{
 height: 600px;
@@ -35,10 +45,12 @@ margin-top: 70px;
 }
 #h2{
     color: white;
-    margin-top: 7%;   
-    margin-bottom: 5%;   
+    margin-top: 9%;   
 
 
+}
+html{
+scroll-behavior:smooth;
 }
 
 *{
@@ -47,6 +59,14 @@ margin-top: 70px;
 }
 #foimg{
     height: 250px;
-    width: 90%;
+    width: 99%;
     border-radius: 20px;
+}
+#preloader{
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    top:0;
+    background: #010101  url("db7091072edc57ac1ee9ac90a53a1744.gif") no-repeat center;
 }
