@@ -37,22 +37,9 @@
 
 
 }
-#navv{
-    font-size: 26px;
-    color: white;
 
-}
-#nav{
-    font-size: 26px;
-    color: white;
-    padding: 15px;
 
-}
-#nav:hover{
-    color: #0d6efd;
-    box-shadow: 0 0 2px 0px #0d6efd;
 
-}
 #btnn{
     background-color: #0d6efd;
 }
@@ -85,6 +72,9 @@ scroll-behavior:smooth;
     font-family: "Playfair Display", serif;
 
 }
+@media screen and(max-width:800px) {
+
+}
 #foimg{
     height: 250px;
     width: 99%;
@@ -98,8 +88,34 @@ scroll-behavior:smooth;
     top:0;
     background: #010101  url("db7091072edc57ac1ee9ac90a53a1744.gif") no-repeat center;
 }
-@media screen and (max-width:991px) {
-#nav{
-    
+
+#navv{
+padding: 0;
+    font-size: 2vw;
+    color: white;
+    margin-bottom: -3vw;
 }
+#ul{
+    display: flex;
+    justify-content: flex-end;
+}
+#li{
+list-style-type: none;
+margin-left: 5vw;
+
+}
+
+#a:hover{
+    color: #0d6efd;
+    box-shadow: 0 0 2px 0px #0d6efd;
+
+}
+#a{
+    text-decoration: none;
+    font-size: 2vw;
+    color: white;
+}
+#con{
+    background-color: #2b3035;
+
 }
